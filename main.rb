@@ -22,7 +22,7 @@ rep_ats = ''
 # ------------- AUTH TO TWITTER ------------- #
 
 $host = Twitter::Client.new(
-  :consumer_key		=> ck,
+        :consumer_key		=> ck,
 	:consumer_secret	=> cs,
 	:oauth_token		=> at,
 	:oauth_token_secret	=> ats
