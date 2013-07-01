@@ -101,7 +101,7 @@ client.userstream do |status|
 	end
 	
 	if str =~ /main working?/ && status.user.screen_name =~ /hogehoge/ then # hogehoge にはメイン垢のスクリーンネームに書き換え
-		$host.update("main.rb working! #{DateTime.now}", in_reply_to_status_id: status.id)
+		$host.update("Script is working! #{DateTime.now}", in_reply_to_status_id: status.id)
 	end
 
 end
